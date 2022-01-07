@@ -1,14 +1,6 @@
 import { FastifyPluginAsync } from 'fastify';
 import { createSchema, updateSchema } from './schemas';
 
-// interface DocumentItemExtra extends UnknownExtra {
-//   document: {
-//     content: string
-//   }
-// }
-
-// const ITEM_TYPE = 'document';
-
 const plugin: FastifyPluginAsync = async (fastify) => {
   const { items: { extendCreateSchema, extendExtrasUpdateSchema } } = fastify;
 

@@ -22,16 +22,16 @@
   },
   "homepage": "https://github.com/graasp/graasp-document-item#readme",
   "dependencies": {
-    "fluent-json-schema": "2.0.4"
+    "fluent-json-schema": "3.0.1"
   },
   "devDependencies": {
-    "@types/eslint": "^7.2.5",
+    "@types/eslint": "^8.2.2",
     "@types/graasp": "github:graasp/graasp-types",
-    "@types/node": "^14.14.7",
-    "@typescript-eslint/eslint-plugin": "^4.7.0",
-    "@typescript-eslint/parser": "^4.7.0",
-    "eslint": "^7.13.0",
-    "fastify": "^3.8.0",
+    "@types/node": "^17.0.8",
+    "@typescript-eslint/eslint-plugin": "^5.9.0",
+    "@typescript-eslint/parser": "^5.9.0",
+    "eslint": "^8.6.0",
+    "fastify": "^3.25.3",
     "typescript": "^4.0.5"
   },
   "packageManager": "yarn@3.2.0-rc.3"
